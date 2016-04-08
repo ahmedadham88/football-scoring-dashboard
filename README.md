@@ -5,8 +5,8 @@ This application prints out a scoring dashboard as text during a football match.
 
 The Application accepts the following commands:
 
-  - **Start: &rsquo;Home_Team&rsquo; vs. &rsquo;Away_Team&rsquo;** to start the game and any command before it is not relevant
-  - **minute &rsquo;Team_Name&rsquo; Player** to score a goal
+  - **Start: 'Home_Team' vs. 'Away_Team'** to start the game and any command before it is not relevant
+  - **minute 'Team_Name' Player** to score a goal
   - **print** to show the current statistics of the match
   - **End** to end the game and show you who won
 
@@ -18,7 +18,7 @@ The following are the error messages that you may face:
     - When you start a game within another game
     - When you try to score a goal in a minute not between 0' and 120'
     - When you try to score a goal for a team that you did not define before
-  - **input error - please start a game through typing 'Start: &rsquo;Name of Home Team&rsquo; vs. &rsquo;Name of Away Team&rsquo;**, when you enter an unknown command and the game is not started
+  - **input error - please start a game through typing 'Start: 'Name of Home Team' vs. 'Name of Away Team'**, when you enter an unknown command and the game is not started
 
 ### Assumptions
 
